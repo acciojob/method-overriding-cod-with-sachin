@@ -1,21 +1,21 @@
 package com.driver;
 
 public class Main {
-    public static class A{
+    public  class A{
         public String meth()
         {
             return "Invoking method from class A";
         }
     }
-    public static  class B extends A{
+    public  class B extends A{
         public String meth()
         {
             return "Method is overridden in Extended class B";
         }
     }
-  public static void Main(String args[])
+  public void Main(String args[])
   {
-      B object=new B();
-      object.meth();
+      B b=new B();
+      b.meth();
   }
 }
