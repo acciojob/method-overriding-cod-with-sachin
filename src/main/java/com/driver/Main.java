@@ -19,5 +19,7 @@ public class Main {
   {
       B b=new B();
       b.meth();
+      B bb=new B();
+      bb.meth();
   }
 }
