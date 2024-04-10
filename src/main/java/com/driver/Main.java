@@ -15,7 +15,7 @@ public class Main {
             return "Method is overridden in Extended class B";
         }
     }
-  public  static void Main(String args[])
+  public  static void main(String args[])
   {
       B b=new B();
       b.meth();
